@@ -1,0 +1,130 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../assets/background-login.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-signin {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signin-text {
+  width: 614px;
+  height: 535px;
+  margin-left: 100px;
+  margin-top: 240px;
+}
+
+.signin-text h1 {
+  color: #FFF;
+  font-size: 52px;
+  font-family: Rubik;
+  font-weight: 700;
+}
+
+.signin-text h1 strong {
+  color: #7978D9;
+  font-size: 52px;
+  font-family: Rubik;
+  font-weight: 700;
+}
+
+.signin-text p {
+  margin-top: 34px;
+  color: #FFF;
+  font-size: 28px;
+  font-family: Rubik;
+}
+
+.signup-btn {
+  margin-top: 42px;
+}
+
+.signup-btn button {
+
+  width: 284px;
+  height: 52px;
+  border: inherit;
+  border-radius: 5px;
+  background-color: #7978D9;
+  justify-content: center;
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-family: Rubik;
+  font-weight: 700;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 122px;
+  margin-top: 109px;
+
+  width: 514px;
+  height: 536px;
+
+  background-color: #FFF;
+
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.form h2 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 48px;
+  color: #7978D9;
+  font-size: 28px;
+  font-family: Rubik;
+  font-weight: 500;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  color: #484848;
+  font-size: 18px;
+  font-family: Rubik;
+}
+
+.form input {
+  margin-top: 8px;
+  width: 449px;
+  height: 63px;
+  border-radius: 5px;
+  border: 1px solid #555;
+  background: inherit;
+  margin-bottom: 32px;
+  padding: 8px;
+  color: #484848;
+  font-size: 18px;
+  font-family: Rubik;
+
+}
+
+.form button {
+  margin-top: 40px;
+  width: 449px;
+  height: 48px;
+  border-radius: 5px;
+  border: none;
+  background-color: #7978D9;
+
+  color: #FFF;
+  font-size: 14px;
+  font-family: Rubik;
+  font-weight: 700;
+}
+
+.error {
+  height: 16px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+  color: red;
+}

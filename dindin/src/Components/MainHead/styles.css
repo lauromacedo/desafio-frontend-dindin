@@ -1,0 +1,38 @@
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100vw;
+  height: 118px;
+  padding: 0 100px;
+}
+
+.links-header {
+  display: flex;
+
+  align-items: center;
+}
+
+.links-header img {
+  width: 56px;
+  height: 56px;
+}
+
+.links-header img:last-child {
+  width: 22px;
+  height: 27.5px;
+  margin-left: 16px;
+}
+
+.links-header p {
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-family: Rubik;
+  font-weight: 700;
+}
+
+.links-header img {
+  cursor: pointer;
+}

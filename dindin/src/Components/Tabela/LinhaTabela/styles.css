@@ -1,0 +1,54 @@
+.linha-tabela {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 964px;
+  height: 58px;
+  padding-left: 0 27px;
+  border-bottom: solid 1px #e0e0e0;
+
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  position: relative;
+}
+
+.linha-tabela div:first-child {
+  font-weight: 700;
+}
+
+.linha-tabela div {
+  width: 150px;
+}
+
+.linha-tabela-buttons {
+  display: flex;
+  gap: 13px;
+  padding-left: 45px;
+}
+
+.linha-tabela img {
+  cursor: pointer;
+}
+
+.tipoEntrada {
+  color: #7b61ff;
+  font-size: 14px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.tipoSaida {
+  color: #fa8c10;
+  font-size: 14px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+}

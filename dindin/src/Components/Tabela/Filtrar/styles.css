@@ -1,0 +1,17 @@
+.cotainer-filtrar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  background: #fafafa;
+  box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.1);
+
+  position: absolute;
+  top: -55px;
+
+  cursor: pointer;
+}

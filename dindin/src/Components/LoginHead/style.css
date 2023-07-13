@@ -1,0 +1,11 @@
+.header {
+  width: 100vw;
+  padding-left: 100px;
+  padding-top: 42px;
+  background-color: inherit;
+}
+
+.header img {
+  height: 46px;
+  width: 170px;
+}

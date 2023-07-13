@@ -1,0 +1,116 @@
+.container-modal {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(61, 61, 61, 0.48);
+  z-index: 1000;
+}
+
+.modal-body {
+  width: 611px;
+  min-height: 879px;
+  background-color: #FFF;
+  border-radius: 20px;
+}
+
+.modal-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 62px 64px 0 64px;
+}
+
+.modal-title h1 {
+  color: #000;
+  font-size: 36px;
+  font-family: Rubik;
+  font-weight: 700;
+}
+
+.modal-title img {
+  cursor: pointer;
+}
+
+.modal-btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 52px;
+}
+
+.btn-modal {
+  width: 245px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: gray;
+}
+
+.entrada {
+  background-color: #3A9FF1;
+}
+
+.saida {
+  background-color: #FF576B;
+}
+
+.resumo-container button {
+  width: 236px;
+  height: 46px;
+  margin-top: 16px;
+}
+
+.modal-body form {
+  display: flex;
+  flex-direction: column;
+  margin: 42px 62px 42px 64px;
+}
+
+.modal-body label {
+  color: #484848;
+  font-size: 24px;
+  font-family: Rubik;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.modal-body input {
+  width: 485px;
+  height: 63.486px;
+  border-radius: 5px;
+  border: 1px solid #555;
+  background: #FFF;
+  margin-bottom: 20px;
+  background: inherit;
+  margin-bottom: 32px;
+  padding: 8px;
+  color: #484848;
+  font-size: 18px;
+  font-family: Rubik;
+}
+
+.form-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.form-btn button {
+  width: 236px;
+  height: 46px;
+
+}
+
+.modal-body select {
+  width: 485px;
+  height: 63.486px;
+  border-radius: 5px;
+  border: 1px solid #555;
+  background: #FFF;
+  margin-bottom: 20px;
+  background: inherit;
+  margin-bottom: 32px;
+  padding: 8px;
+  color: #484848;
+  font-size: 16px;
+  font-family: Rubik;
+}

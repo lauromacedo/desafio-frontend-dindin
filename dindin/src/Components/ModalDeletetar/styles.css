@@ -1,0 +1,64 @@
+.modal-deletar {
+  position: absolute;
+  right: 40px;
+  bottom: -40px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+
+  width: 111px !important;
+  height: 46px;
+  border-radius: 4px;
+  background: #e4f2fd;
+  z-index: 10;
+}
+
+.modal-deletar span {
+  color: #000;
+  text-align: center;
+  font-size: 10px;
+  font-family: Rubik;
+  font-weight: 300;
+}
+
+.modal-deletar-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+}
+
+.modal-deletar-buttons button {
+  color: #FFF;
+  text-align: center;
+  font-size: 9px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.btn-modal-deletar {
+  width: 37px;
+  height: 15px;
+  border-radius: 4px;
+}
+
+.btn-modal-deletar-sim {
+  background-color: #3a9ff1;
+}
+
+.btn-modal-deletar-nao {
+  background-color: #ff576b;
+}
+
+.modal-img-seta {
+  position: absolute;
+  top: -8px;
+  right: 4px;
+
+  width: 17px;
+  height: 13px;
+}

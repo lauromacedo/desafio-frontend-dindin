@@ -1,0 +1,88 @@
+.main-signup {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../assets/background-login.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.signup-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-signup {
+  margin-top: 24px;
+  padding-left: 32px;
+  width: 512px;
+  height: 756px;
+  background-color: #FFF;
+
+}
+
+.form-signup h2 {
+  text-align: center;
+  color: #7978D9;
+  font-size: 28px;
+  font-family: Rubik;
+  font-weight: 500;
+  padding-top: 60px;
+  margin-bottom: 42px;
+}
+
+.form-signup label {
+  display: flex;
+  flex-direction: column;
+  color: #484848;
+  font-size: 18px;
+  font-family: Rubik;
+}
+
+.form-signup input {
+  margin-top: 8px;
+  width: 449px;
+  height: 63px;
+  border-radius: 5px;
+  border: 1px solid #555;
+  background: inherit;
+  margin-bottom: 32px;
+  padding: 8px;
+  color: #484848;
+  font-size: 18px;
+  font-family: Rubik;
+}
+
+.redirect-link a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 12px;
+
+  color: #7B61FF;
+
+  font-size: 14px;
+  font-family: Lato;
+  font-weight: 700;
+
+}
+
+.button-signup {
+  width: 449px;
+  height: 48px;
+  margin-top: 10px;
+}
+
+.confirm_senha {
+  background-color: red;
+}
+
+.error {
+  height: 16px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
