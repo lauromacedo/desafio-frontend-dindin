@@ -1,0 +1,40 @@
+.chip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  margin: 10px 10px 8px 0;
+  width: 90px;
+  height: 24px;
+  background-color: #fafafa;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  color: #000;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Rubik;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.chip span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.checked {
+  background-color: #7978d9;
+  color: #FFF;
+
+}
+
+.uncheck {
+  background-color: #fafafa;
+  color: #000
+}

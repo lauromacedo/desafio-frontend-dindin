@@ -1,12 +1,14 @@
 import './styles.css';
 import imgData from '../../../assets/PolygonData.svg';
-import Filtrar from '../Filtrar/index';
+
+
 
 
 export default function HeaderTabela() {
     return (
+
         <div className='container-header-tabela'>
-            <Filtrar />
+
             <div className='header-tabela'>
                 <div className='data-header'>
                     <span>Data</span>
@@ -20,5 +22,6 @@ export default function HeaderTabela() {
                 <div></div>
             </div>
         </div>
+
     )
 }

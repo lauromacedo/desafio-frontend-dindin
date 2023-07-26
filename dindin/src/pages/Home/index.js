@@ -7,7 +7,7 @@ import ModalEditarPerfil from '../../Components/ModalEditarPerfil';
 import api from '../../services/api';
 import { useEffect, useState } from 'react';
 import { getItem } from '../../utils/localStorage';
-
+import Filter from '../../Components/Filter';
 
 export default function Home() {
   const [nome, setNome] = useState('');
@@ -78,11 +78,14 @@ export default function Home() {
         setModalEditarPerfil={setModalEditarPerfil} />
 
       <div className='main-home'>
-        <Tabela
-          transacoes={transacoes}
-          setTransacoes={setTransacoes}
-          allCategories={allCategories}
-        />
+        <div className='table-container'>
+          <Filter />
+          <Tabela
+            transacoes={transacoes}
+            setTransacoes={setTransacoes}
+            allCategories={allCategories}
+          />
+        </div>
 
         <ModalRegistro
           modalRegistro={modalRegistro}
